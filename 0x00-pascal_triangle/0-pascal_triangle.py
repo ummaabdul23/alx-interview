@@ -20,7 +20,7 @@ def pascal_triangle(n):
         in_pas = []
         for j in range(i + 1):
             num = 0
-            if left > -2:
+            if left > -1:
                 num += pascal[i - 1][left]
             if right < i:
                 num += pascal[i - 1][right]
